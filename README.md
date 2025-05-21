@@ -1,15 +1,12 @@
-# F1 AI Team Detection
+# 🏎️ F1 AI Team Detection
 
 **Computer vision project using YOLO to detect and classify Formula 1 teams in race images and videos. The project also estimates and visualizes the distance between cars in real-time, displaying the gap in both meters and seconds, enabling dynamic race analysis.**
 
 ---
 
-
-
-## Overview
+## 📄 Overview
 
 This repository contains code and notebooks for an AI-powered Formula 1 team detection system. Leveraging the YOLO (You Only Look Once) architecture, the model detects and classifies F1 team cars in images and videos. Additionally, it estimates the distance between cars, providing real-time gap metrics in both meters and seconds. This enables dynamic analysis and visualization for racing events.
-
 
 > [!WARNING]
 > **Model weights are not included in this repository.** You will need to train the models yourself using the provided notebooks.
@@ -19,9 +16,7 @@ This repository contains code and notebooks for an AI-powered Formula 1 team det
 
 ---
 
-
-
-## Features
+## ✨ Features
 
 - **YOLO-based Detection:** Identifies and classifies Formula 1 cars by team in real-time.
 - **Distance Estimation:** Calculates and visualizes the distance between detected cars (meters and seconds).
@@ -32,21 +27,22 @@ This repository contains code and notebooks for an AI-powered Formula 1 team det
 ---
 
 
-## Project Structure
+## 📁 Project Structure
 
+```
 ├── .gitignore
+├── README.md
 ├── data_augmentation.py            # Script for training data augmentation
 ├── gap_calculation.ipynb           # Notebook for calculating and visualizing distances between cars
-├── README.md
 ├── YOLO_fine_tune.ipynb            # Main notebook for training and fine-tuning YOLO models
 ├── yolo11n.pt                      # Pre-trained YOLO model (nano)
 ├── yolo12m.pt                      # Pre-trained YOLO model (medium)
 ├── yolo12s.pt                      # Pre-trained YOLO model (small)
 ├── f1-dataset/                     # Dataset for training and validation
 │   ├── data.yaml                   # Class configuration and paths
-│   ├── test/                       # Test images and labels
 │   ├── train/                      # Training images and labels
-│   └── valid/                      # Validation images and labels
+│   ├── valid/                      # Validation images and labels
+│   └── test/                       # Test images and labels
 ├── videos/                         # F1 videos for processing
 ├── weights/                        # Saved trained models
 │   ├── fine_tuned.pt               # Final optimized model
@@ -54,12 +50,10 @@ This repository contains code and notebooks for an AI-powered Formula 1 team det
 │   └── yolo_small_detection.pt     # Fine-tuned small YOLO model
 └── yolo-files/                     # Files generated during training
     └── runs/                       # Training and evaluation results
-
----
-
+```
 
 
-## Performance Metrics
+## 📊 Performance Metrics
 
 The final optimized model achieved the following results:
 
@@ -85,8 +79,7 @@ The final optimized model achieved the following results:
 
 ---
 
-
-## Getting Started
+## 🚀 Getting Started
 
 ### Requirements
 
@@ -114,9 +107,7 @@ cd F1_yolo_team_detection
 
 ---
 
-
-
-## Examples
+## 🔍  Examples
 
 The system automatically calculates:
 
@@ -128,8 +119,6 @@ The system automatically calculates:
 
 ---
 
-
-
-## License
+## ⚖️  License
 
 This project is licensed under the MIT License.
