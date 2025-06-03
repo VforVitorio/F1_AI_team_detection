@@ -24,7 +24,7 @@ This repository contains code and notebooks for an AI-powered Formula 1 team det
 - **False Positive Filtering:** Intelligent system to eliminate ghost detections.
 - **Object Tracking:** Maintains car identity throughout the video.
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/VforVitorio/F1_AI_team_detection)
+
 
 ---
 
@@ -118,6 +118,8 @@ The system automatically calculates:
 * Identifies teams with a custom confidence threshold per class
 * Displays visual labels in real-time
 * Eliminates ghost detections through overlap analysis
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/VforVitorio/F1_AI_team_detection)
 
 ---
 
