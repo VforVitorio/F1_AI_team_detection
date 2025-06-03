@@ -119,10 +119,14 @@ The system automatically calculates:
 * Displays visual labels in real-time
 * Eliminates ghost detections through overlap analysis
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/VforVitorio/F1_AI_team_detection)
 
 ---
 
 ## ⚖️  License
 
 This project is licensed under the MIT License.
+
+---
+
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/VforVitorio/F1_AI_team_detection)
