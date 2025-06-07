@@ -2,7 +2,7 @@
 
 **Computer vision project using YOLO to detect and classify Formula 1 teams in race images and videos. The project also estimates and visualizes the distance between cars in real-time, displaying the gap in both meters and seconds, enabling dynamic race analysis.**
 
-![F1 Detection Demo](assets/demo.gif)
+![F1 Detection Demo](videos/f1_gif.gif)
 
 ---
 
