@@ -2,7 +2,9 @@
 
 **Computer vision project using YOLO to detect and classify Formula 1 teams in race images and videos. The project also estimates and visualizes the distance between cars in real-time, displaying the gap in both meters and seconds, enabling dynamic race analysis.**
 
-![F1 Detection Demo](videos/f1_gif.gif)
+<p align="center">
+  <img src="weights/f1_gif.gif" alt="F1 Gif demo" style="width:50%;"/>
+</p>
 
 ---
 
@@ -24,8 +26,6 @@ This repository contains code and notebooks for an AI-powered Formula 1 team det
 - **Result Visualization:** Outputs annotated real-time video with team labels and gap information.
 - **False Positive Filtering:** Intelligent system to eliminate ghost detections.
 - **Object Tracking:** Maintains car identity throughout the video.
-
-
 
 ---
 
@@ -118,7 +118,6 @@ The system automatically calculates:
 - Displays visual labels in real-time
 - Eliminates ghost detections through overlap analysis
 
-
 ---
 
 ## ⚖️ License
@@ -126,6 +125,5 @@ The system automatically calculates:
 This project is licensed under the MIT License.
 
 ---
-
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/VforVitorio/F1_AI_team_detection)
