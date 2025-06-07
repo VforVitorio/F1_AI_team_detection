@@ -10,8 +10,7 @@
 
 This repository contains code and notebooks for an AI-powered Formula 1 team detection system. Leveraging the YOLO (You Only Look Once) architecture, the model detects and classifies F1 team cars in images and videos. Additionally, it estimates the distance between cars, providing real-time gap metrics in both meters and seconds. This enables dynamic analysis and visualization for racing events.
 
-> [!WARNING]
-> **Model weights are not included in this repository.** You will need to train the models yourself using the provided notebooks.
+> [!WARNING] > **Model weights are not included in this repository.** You will need to train the models yourself using the provided notebooks.
 >
 > **To access the dataset**, please visit: [F1 Car 2023 Dataset
 > ](https://app.roboflow.com/vforvitorio/f1-car-2023-1bsn2)
@@ -27,7 +26,6 @@ This repository contains code and notebooks for an AI-powered Formula 1 team det
 - **Object Tracking:** Maintains car identity throughout the video.
 
 ---
-
 
 ## 📁 Project Structure
 
@@ -53,7 +51,6 @@ This repository contains code and notebooks for an AI-powered Formula 1 team det
 └── yolo-files/                     # Files generated during training
     └── runs/                       # Training and evaluation results
 ```
-
 
 ## 📊 Performance Metrics
 
@@ -99,28 +96,28 @@ cd F1_yolo_team_detection
 ### Usage
 
 1. **Model Training:**
-   * Open the [YOLO_fine_tune.ipynb](vscode-file://vscode-app/c:/Users/victo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html) notebook in Jupyter
-   * Adjust parameters as needed
-   * Run the cells to train the model
+   - Open the [YOLO_fine_tune.ipynb](vscode-file://vscode-app/c:/Users/victo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html) notebook in Jupyter
+   - Adjust parameters as needed
+   - Run the cells to train the model
 2. **Distance Calculation and Visualization:**
-   * Open the [gap_calculation.ipynb](vscode-file://vscode-app/c:/Users/victo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html) notebook
-   * Configure the video path for analysis
-   * Run to process the video and visualize results
+   - Open the [gap_calculation.ipynb](vscode-file://vscode-app/c:/Users/victo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html) notebook
+   - Configure the video path for analysis
+   - Run to process the video and visualize results
 
 ---
 
-## 🔍  Examples
+## 🔍 Examples
 
 The system automatically calculates:
 
-* Distance in meters between consecutive cars
-* Time difference in seconds (based on 300 km/h speed)
-* Identifies teams with a custom confidence threshold per class
-* Displays visual labels in real-time
-* Eliminates ghost detections through overlap analysis
+- Distance in meters between consecutive cars
+- Time difference in seconds (based on 300 km/h speed)
+- Identifies teams with a custom confidence threshold per class
+- Displays visual labels in real-time
+- Eliminates ghost detections through overlap analysis
 
 ---
 
-## ⚖️  License
+## ⚖️ License
 
 This project is licensed under the MIT License.
