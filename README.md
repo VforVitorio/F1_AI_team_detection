@@ -35,6 +35,7 @@ This repository contains code and notebooks for an AI-powered Formula 1 team det
 
 ```
 ├── .gitignore
+├── LICENSE
 ├── README.md
 ├── data_augmentation.py            # Script for training data augmentation
 ├── gap_calculation.ipynb           # Notebook for calculating and visualizing distances between cars
@@ -44,17 +45,36 @@ This repository contains code and notebooks for an AI-powered Formula 1 team det
 ├── yolo12s.pt                      # Pre-trained YOLO model (small)
 ├── f1-dataset/                     # Dataset for training and validation
 │   ├── data.yaml                   # Class configuration and paths
+│   ├── data.yaml.backup            # Backup configuration files
+│   ├── data.yaml.backup2
+│   ├── data.yaml.perfect_backup
 │   ├── train/                      # Training images and labels
+│   │   ├── images/
+│   │   ├── labels/
+│   │   └── labels.cache
 │   ├── valid/                      # Validation images and labels
+│   │   ├── images/
+│   │   ├── labels/
+│   │   └── labels.cache
 │   └── test/                       # Test images and labels
+│       ├── images/
+│       └── labels/
 ├── videos/                         # F1 videos for processing
-├── weights/                        # Saved trained models
+│   ├── abu_dhabi_2024_race.mp4.f399.mp4
+│   └── belgium_gp.f399.mp4
+├── weights/                        # Saved trained models and demo files
+│   ├── f1_gif_2.gif                # Demo GIF
 │   ├── fine_tuned.pt               # Final optimized model
 │   ├── yolo_medium_detection.pt    # Fine-tuned medium YOLO model
 │   └── yolo_small_detection.pt     # Fine-tuned small YOLO model
 └── yolo-files/                     # Files generated during training
     └── runs/                       # Training and evaluation results
+        ├── class_specific_tuning/
+        ├── class_specific_tuning2/
+        ├── yolo12_m_training/        └── yolo12_m_training2/
 ```
+
+> [!WARNING] > **Some folders contain materials that are excluded by .gitignore and are not uploaded to this repository.** This includes training results, cache files, and processed datasets. If you need access to these materials, please contact me or generate them by running the provided notebooks.
 
 ## 📊 Performance Metrics
 
