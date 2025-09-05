@@ -14,7 +14,8 @@
 
 This repository contains code and notebooks for an AI-powered Formula 1 team detection system. Leveraging the YOLO (You Only Look Once) architecture, the model detects and classifies F1 team cars in images and videos. Additionally, it estimates the distance between cars, providing real-time gap metrics in both meters and seconds. This enables dynamic analysis and visualization for racing events.
 
-> ![WARNING] > **Model weights are not included in this repository.** You will need to train the models yourself using the provided notebooks.
+> [!WARNING]
+> **Model weights are not included in this repository.** You will need to train the models yourself using the provided notebooks.
 >
 > **To access the dataset**, please visit: [F1 Car 2023 Dataset
 > ](https://app.roboflow.com/vforvitorio/f1-car-2023-1bsn2)
