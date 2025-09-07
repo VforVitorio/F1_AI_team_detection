@@ -57,6 +57,9 @@ F1_AI_team_detection/
 The final optimized model achieved exceptional results across all metrics:
 
 ### Overall Performance
+
+<div align="center">
+
 | Metric    | Value |
 |-----------|-------|
 | **mAP50**     | **0.940** |
@@ -64,7 +67,12 @@ The final optimized model achieved exceptional results across all metrics:
 | **Precision** | **0.925** |
 | **Recall**    | **0.771** |
 
+</div>
+
 ### Team-specific Performance
+
+<div align="center">
+
 | Team         | Precision | Recall | mAP50 | mAP50-95 |
 |--------------|-----------|--------|-------|----------|
 | **Kick Sauber**  | 1.000     | 0.526  | 0.809 | 0.642    |
@@ -75,6 +83,8 @@ The final optimized model achieved exceptional results across all metrics:
 | **McLaren**      | 1.000     | 0.378  | 0.859 | 0.709    |
 | **Mercedes**     | 0.975     | 1.000  | 0.995 | 0.796    |
 | **Williams**     | 0.698     | 1.000  | 0.913 | 0.651    |
+
+</div>
 
 ---
 
